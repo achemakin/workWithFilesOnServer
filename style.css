@@ -1,0 +1,107 @@
+.title {
+    text-align: center;
+    
+    font-size: 40px;
+}
+
+/* страница с формой загрузки */
+.wrapper {
+    margin: 0 auto;
+    width: 70%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.load-images {
+    width: 60%;
+    text-align: center;
+}
+
+.load-images__legend {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.load-images__input-file {
+   font-size: 20px;
+}
+
+.load-images__submit {
+    font-size: 20px;
+}
+
+.load-images__text {
+    margin: 20px 0 0;
+    padding: 0 10px;
+
+    display: inline-block;
+    font-size: 12px;
+}
+
+.show-images-link {    
+    width: 30%;
+    padding-top: 50px;
+
+    text-align: center;
+    
+    background-color: gainsboro;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* страница просмотра изображений */
+.show-images {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 10px 10px;
+    text-align: center;
+}
+
+.show-images__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+
+.show-images__item {
+    margin-bottom: 20px;
+        
+    width: 24%;
+    text-align: center;
+}
+
+.show-images__img {
+    width: 100%;
+}
+
+.show-images__name {
+    font-size: 20px;
+}
+
+.show-images__button {
+    display: block;
+    margin: 0 auto;
+
+    padding: 20px;
+    width: 300px;
+
+    font-size: 20px;
+}
+
+.show-images__info {
+    font-size: 30px;
+}
+
+.link-back {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    background-color: gainsboro;
+}
+
